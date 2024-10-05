@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo">
+                    <i class="fa-solid fa-e"></i>
+                    <div class="logo-text">Eduardo III Españo</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </nav>
+                <section id="about-me" class="about-section">
+                    <div class="about-content">
+                        <h2>About Me</h2>
+                        <div class="about-box">
+                            <div class="bio">
+                                <h3>My Personal Bio</h3>
+                                <p>Hello, I'm Eduardo lll D. Españo 
+
+                                    Becoming a programmer and developer is often a rewarding journey filled with learning, challenges, and growth. Here’s a general outline of that journey</p>
+                            </div>
+                            <div class="skills">
+                                <h3>Skills & Expertise</h3>
+                                <p>Introduction to Programming</p>
+                                <p>Building Foundations</p>
+                                <p>Diving Deeper</p>
+                                <p> Real-World Experience</p>
+                                <p> Specialization</p>
+                                <p>Continuous Learning</p>
+                                <p>Building a Portfolio</p>
+                                <p>Career Growth</p>
+                            </div>
+                            <div class="fun-facts">
+                                <h3>My Hobbies</h3>
+                                <p>Playing Soccer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script>
+    var togglebtn = document.querySelector(".togglebtn");
+    var nav = document.querySelector(".navlinks");
+    var links = document.querySelector(".navlinks li");
+
+    togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+    })
+</script>
+
+</html>

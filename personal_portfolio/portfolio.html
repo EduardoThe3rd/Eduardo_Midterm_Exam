@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo">
+                    <i class="fa-solid fa-e"></i>
+                    <div class="logo-text">Eduardo III Españo</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </nav>
+                <section id="about-me" class="about-section">
+                    <div class="about-content">
+                        <h2>Portfolio</h2>
+                        <div class="about-box">
+                            <div class="bio">
+                                <h3>Work Showcase</h3>
+                                <p>Music Video Creator.</p>
+                            </div>
+                            <div class="skills">
+                                <h3>Links</h3>
+                                <p>My music Video Creation</p>
+                                <a href="https://youtu.be/DhzDmhytrTI?si=sD_IOtsjmhjmcOrE"><li>Binibini</li></a>
+                            </div>
+                            <div class="fun-facts">
+                                <h3>Accomplishments</h3>
+                                <p>Music Video.</p>
+                                <p>Song Writer.</p>
+                                <p>Videographer.</p>
+                                <p>Web Designer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script>
+    var togglebtn = document.querySelector(".togglebtn");
+    var nav = document.querySelector(".navlinks");
+    var links = document.querySelector(".navlinks li");
+
+    togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+    })
+</script>
+
+</html>
